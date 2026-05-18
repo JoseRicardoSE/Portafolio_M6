@@ -1,0 +1,22 @@
+{
+  "name": "tienda-rey-rick-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API REST para Tienda Rey Rick - Módulo 6",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "Tienda Rey Rick",
+  "license": "ISC"
+}

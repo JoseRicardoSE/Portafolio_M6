@@ -1,0 +1,43 @@
+/* Colores personalizados - Verde Fallout */
+:root {
+  --bs-primary: #6fa800;
+  --bs-primary-rgb: 111, 168, 0;
+}
+
+.btn-primary {
+  background-color: #6fa800;
+  border-color: #6fa800;
+}
+
+.btn-primary:hover {
+  background-color: #85c40a;
+  border-color: #85c40a;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #5a8900;
+  border-color: #5a8900;
+}
+
+.btn-primary:disabled {
+  background-color: #6fa800;
+  border-color: #6fa800;
+  opacity: 0.6;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(111, 168, 0, 0.2);
+}
+
+.sticky-top {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}

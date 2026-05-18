@@ -1,0 +1,23 @@
+[
+  {
+    "id": "047bbb95-86bf-4cba-ad50-9e253d305fea",
+    "fecha": "2026-05-18T00:39:14.340Z",
+    "detalle": [
+      {
+        "productoId": "12fed5d3-9168-492f-9c7b-3bed610120fd",
+        "title": "Anillo de Hombre Gliscor",
+        "price": 3200000,
+        "quantity": 1,
+        "subtotal": 3200000
+      },
+      {
+        "productoId": "c3d4e5f6-a7b8-4901-c234-56789abcdef03",
+        "title": "Perfume Hombre Acqua Di Giò Parfum 100ml Edición Limitada Giorgio Armani",
+        "price": 59990,
+        "quantity": 1,
+        "subtotal": 59990
+      }
+    ],
+    "total": 3259990
+  }
+]

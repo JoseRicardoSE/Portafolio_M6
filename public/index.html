@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Rey Rick</title>
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+<body>
+
+  <header class="container-fluid sticky-top bg-white border-bottom mb-4">
+    <div class="container py-3">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+        <div>
+          <h1 class="h3 mb-0">Tienda Rey Rick</h1>
+        </div>
+        <div class="w-100 w-md-50">
+          <input id="buscar" type="text" class="form-control" placeholder="Buscar productos...">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mb-4">
+    <div class="row">
+      <section class="col-md-8">
+        <div id="contenedor-productos" class="row"></div>
+      </section>
+
+      <aside class="col-md-4">
+        <div class="sticky-top" style="top: 120px;">
+          <div class="border rounded p-3 bg-white">
+        <h2>Carrito (<span id="contador-carrito">0</span>)</h2>
+        <ul id="lista-carrito" class="list-group mb-3"></ul>
+        <p>Total: <strong id="total-carrito">$0</strong></p>
+        <button id="btn-comprar" type="button" class="btn btn-primary w-100">Comprar</button>
+        </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Contenedor para notificaciones flotantes (toasts) que aparecerán en la esquina inferior derecha -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div id="toast-mensaje" class="toast-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container text-center text-muted small">
+        <p class="mb-0">© 2024 Tienda Rey Rick - Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

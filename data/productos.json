@@ -1,0 +1,30 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4789-a012-3456789abc01",
+    "title": "Reloj Automático Seiko 5 Sports Hombre SRPK87K1",
+    "price": 440000,
+    "stock": 10,
+    "image": "https://larelojeria.cl/cdn/shop/files/p-SRPK87K1-1.jpg?v=1760707035&width=1000"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4890-b123-456789abcdef02",
+    "title": "Cadena Veneciana Oro Italiano 750 18 Kilates Amarillo Mujer",
+    "price": 410000,
+    "stock": 10,
+    "image": "https://media.falabella.com/falabellaCL/112921589_01/w=1200,h=1200,fit=pad"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4901-c234-56789abcdef03",
+    "title": "Perfume Hombre Acqua Di Giò Parfum 100ml Edición Limitada Giorgio Armani",
+    "price": 59990,
+    "stock": 4,
+    "image": "https://media.falabella.com/falabellaCL/80130332_1/w=1200,h=1200,fit=pad"
+  },
+  {
+    "id": "12fed5d3-9168-492f-9c7b-3bed610120fd",
+    "title": "Anillo de Hombre Gliscor",
+    "price": 3200000,
+    "stock": 9,
+    "image": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/gliscor-mr1/stone2/cabochon-Onyx_AAA/alloycolour/yellow.jpg"
+  }
+]
